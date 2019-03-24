@@ -10,6 +10,8 @@ int main()
     C=A+B;
     printf("%d + %d = %d\n",A,B,C);
     C=A-B;
-    printf("%d - %d = %d",A,B,C);
+    printf("%d - %d = %d\n",A,B,C);
+    C=A/B;
+    printf("%d / %d = %d",A,B,C);
     return 0;
 }
